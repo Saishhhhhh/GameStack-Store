@@ -15,4 +15,10 @@
     .navbar-collapse {
         width: 100%;
     }
+
+    #cart-icon {
+        padding-top: 42px;
+        padding-right: 28px;
+        font-size: 20px;
+    }
 }
