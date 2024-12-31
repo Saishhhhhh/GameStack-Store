@@ -53,6 +53,7 @@ form button{
 #cart-icon{
     font-size: 20px;
     background-color: #131316;
+    margin-left: 15px;
 }
 
 #logo{
@@ -71,5 +72,6 @@ form button{
     border: none;
 }
 
-
-
+.carousel-indicators {
+    background: none; 
+}
