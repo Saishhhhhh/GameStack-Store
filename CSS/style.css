@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#101014 ;
+}
+
+.navbar{
+    background-color:#131316 ;
+    color:#FEFEFF;
+}
+
+.navbar a{
+    color:#FEFEFF;
+}
+
+/* .navbar-toggler.active {
+    background-color: #333; 
+    border: solid 1px #FEFEFF !important;
+    border-radius: 5px; 
+} */
+
+.navbar-toggler i {
+    color: #FEFEFF; 
+}
+
+form i{
+    background-color: white;
+}
+
+form button{
+    background-color: white;
+}
+
