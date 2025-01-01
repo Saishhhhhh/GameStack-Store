@@ -18,6 +18,7 @@ const videoGames = [
         current_price: 3999,
         discount_percentage: 20,
         genre: 'Action',
+        featured: true,
     },
     {
         id: '003',
@@ -28,6 +29,7 @@ const videoGames = [
         current_price: 2599,
         discount_percentage: 35,
         genre: 'Action',
+        featured: true,
     },
     {
         id: '004',
@@ -48,6 +50,7 @@ const videoGames = [
         current_price: 4999,
         discount_percentage: 29,
         genre: 'Action',
+        featured: true,
     },
     {
         id: '006',
@@ -68,6 +71,7 @@ const videoGames = [
         current_price: 1499,
         discount_percentage: 25,
         genre: 'Casual',
+        featured: true,
     },
     {
         id: '008',
@@ -88,6 +92,7 @@ const videoGames = [
         current_price: 1499,
         discount_percentage: 62,
         genre: 'Action',
+        featured: true,
     },
     {
         id: '010',
@@ -168,6 +173,7 @@ const videoGames = [
         current_price: 3499,
         discount_percentage: 42,
         genre: 'RPG',
+        featured: true,
     },
     {
         id: '018',
@@ -198,5 +204,6 @@ const videoGames = [
         current_price: 2999,
         discount_percentage: 25,
         genre: 'Casual',
+        featured: true,
     },
 ];

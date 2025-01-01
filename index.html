@@ -17,7 +17,7 @@
                 <div class="col-12 px-0">
                     <nav class="navbar navbar-expand-lg p-4">
                         <div class="container-fluid" id="nav-container">
-                            <a class="navbar-brand" id="logo" href="#">GameStack</a>
+                            <a class="navbar-brand" id="logo" href="#">GAMESTACK</a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                                 <span><i class="fa-solid fa-bars"></i></span>
                             </button>
@@ -33,7 +33,7 @@
                                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center" id="nav-right">
                                     <li class="nav-item">
                                         <form class="d-flex" role="search">
-                                            <button id="search-icon"><i class="fa-solid fa-magnifying-glass mt-2"></i></button>
+                                            <i class="fa-solid fa-magnifying-glass"></i>
                                             <input id="search-bar" class="form-control me-2" type="search" placeholder="Search">
                                         </form>
                                     </li>
@@ -76,11 +76,11 @@
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon bg-transparent" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon bg-transparent" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
@@ -91,31 +91,31 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-auto">
-                        <button class="nav-button active">FEATURED</button>
+                        <button class="nav-button active" id="featured">FEATURED</button>
                     </div>
                     <div class="col-auto">
-                        <button class="nav-button">ALL</button>
+                        <button class="nav-button" id="all">ALL</button>
                     </div>
                     <div class="col-auto">
-                        <button class="nav-button">ACTION</button>
+                        <button class="nav-button" id="action">ACTION</button>
                     </div>
                     <div class="col-auto">
-                        <button class="nav-button">ADVENTURE</button>
+                        <button class="nav-button" id="adventure">ADVENTURE</button>
                     </div>
                     <div class="col-auto">
-                        <button class="nav-button">CASUAL</button>
+                        <button class="nav-button" id="casual">CASUAL</button>
                     </div>
                     <div class="col-auto">
-                        <button class="nav-button">RPG</button>
+                        <button class="nav-button" id="rpg">RPG</button>
                     </div>
                     <div class="col-auto">
-                        <button class="nav-button">SIMULATION</button>
+                        <button class="nav-button" id="simulation">SIMULATION</button>
                     </div>
                     <div class="col-auto">
-                        <button class="nav-button">SPORTS & RACING</button>
+                        <button class="nav-button" id="sports">SPORTS & RACING</button>
                     </div>
                     <div class="col-auto">
-                        <button class="nav-button">STRATEGY</button>
+                        <button class="nav-button" id="strategy">STRATEGY</button>
                     </div>
                 </div>
             </div>
@@ -142,6 +142,48 @@
             </div>
         </div>
     </main>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row text-center py-4">
+                <!-- Logo and Tagline -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h1 class="footer-logo">GameStack</h1>
+                    <p class="tagline">"Play. Conquer. Repeat."</p>
+                </div>
+    
+                <!-- Navigation Links -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="footer-heading">Explore</h5>
+                    <ul class="footer-links list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Browse Games</a></li>
+                        <li><a href="#">Latest News</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Social Media -->
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5 class="footer-heading">Join the Community</h5>
+                    <div class="social-icons d-flex justify-content-center">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Separator -->
+            <div class="footer-separator"></div>
+            <!-- Copyright -->
+            <div class="row text-center pt-3">
+                <div class="col-12">
+                    <p class="copyright">© 2025 GameStack. All rights reserved. | Powered by Gamers & Dreamers 🎮</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
