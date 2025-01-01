@@ -106,3 +106,65 @@ form button{
     transform: scale(1.1); 
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); 
 }
+
+.game-card {
+    text-align: left;
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.game-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.game-company {
+    font-size: 14px;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.game-title {
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 0;
+}
+
+.price-info {
+    margin-top: 10px;
+}
+
+.discount-percentage {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.original-price {
+    font-size: 14px;
+    opacity: 0.7;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+
+.current-price {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn-add-to-cart {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%; /* Makes the button take the full width */
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
