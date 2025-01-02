@@ -212,15 +212,15 @@ form.d-flex .fa-magnifying-glass:hover {
     font-size: 4rem;
     font-weight: bold;
     margin: 0;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow for contrast */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
     background-color: transparent;
 }
 
-/* Company name styling */
+
 .carousel-caption .company {
     font-size: 2.5rem;
     margin-top: 5px;
-    color: #ddd; /* Slightly gray for subtle contrast */
+    color: #ddd; 
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     background-color: transparent;
 }
@@ -335,7 +335,7 @@ main {
     margin-top: 15px;
     padding: 10px;
     border-radius: 5px;
-    width: 100%; /* Makes the button take the full width */
+    width: 100%; 
     text-align: center;
     font-size: 16px;
     font-weight: bold;
