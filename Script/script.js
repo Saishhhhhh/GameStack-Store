@@ -12,6 +12,17 @@ let count = document.getElementById("cart-count");
 
 let category = "featured";
 
+function initializeCartCount() {
+    let storedCount = localStorage.getItem("cart-count");
+    if (storedCount) {
+        count.innerText = storedCount;
+    } else {
+        count.innerText = "0"; 
+    }
+}
+
+initializeCartCount();
+
 function displayGameCards(category){
 
     let gameCards = document.getElementById("game-cards-container")
@@ -139,5 +150,28 @@ document.addEventListener("click", function(event){
 
         localStorage.setItem("cart-count", newCount);
         // alert("Item added to cart!");
+
+        let card = event.target.closest(".game-card");
+
+        let gameDetails = {
+            image: card.querySelector("img").src,
+            company: card.querySelector(".game-company").innerText,
+            item_name: card.querySelector(".game-title").innerText,
+            description: card.querySelector(".game-description").innerText,
+            discount_percentage: card.querySelector(".discount-percentage").innerText,
+            original_price: card.querySelector(".original-price").innerText,
+            current_price: card.querySelector(".current-price").innerText,
+        }
+
+        let cartItems;
+        if (localStorage.getItem("cart-items")) {
+            cartItems = JSON.parse(localStorage.getItem("cart-items"));
+        } else {
+            cartItems = [];
+        }
+
+        cartItems.push(gameDetails); 
+
+        localStorage.setItem("cart-items", JSON.stringify(cartItems));
     }
 })
