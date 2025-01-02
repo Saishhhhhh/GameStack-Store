@@ -35,5 +35,48 @@
         transition: transform 0.3s ease;
         z-index: 10;
     }
+
+    .carousel-caption {
+        bottom: 10%;
+        left: 3%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+
+    .carousel-caption .company {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        bottom: 10%;
+        left: 3%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption .company {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        bottom: 10%;
+        left: 3%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption .company {
+        font-size: 0.7rem;
+    }
 }
 
