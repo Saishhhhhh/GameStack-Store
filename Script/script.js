@@ -7,6 +7,8 @@ let rpg = document.getElementById("rpg");
 let simulation = document.getElementById("simulation");
 let sports = document.getElementById("sports");
 let strategy = document.getElementById("strategy");
+let count = document.getElementById("cart-count");
+
 
 let category = "featured";
 
@@ -31,13 +33,14 @@ function displayGameCards(category){
                 <img src="${game.image}" alt="${game.item_name} Image" class="${game.genre}">
                 <h5 class="game-company">${game.company}</h5>
                 <h3 class="game-title">${game.item_name}</h3>
+                <span class="game-description" style="display:none">${game.description}%</span>
                 <div class="price-info">
                     <span class="discount-percentage">-${game.discount_percentage}%</span>
                     <span class="original-price">₹${game.original_price}</span>
                     <span class="current-price">₹${game.current_price}</span>
                 </div>
                 <p>
-                <button class="btn btn-primary btn-add-to-cart">Add To Cart</button>
+                <button class="btn btn-primary btn-add-to-cart" id="addToCart">Add To Cart</button>
                 </p>
             </div>
             `
@@ -51,13 +54,14 @@ function displayGameCards(category){
             <img src="${game.image}" alt="${game.item_name} Image" class="${game.genre}">
             <h5 class="game-company">${game.company}</h5>
             <h3 class="game-title">${game.item_name}</h3>
+            <span class="game-description" style="display:none">-${game.description}%</span>
             <div class="price-info">
                 <span class="discount-percentage">-${game.discount_percentage}%</span>
                 <span class="original-price">₹${game.original_price}</span>
                 <span class="current-price">₹${game.current_price}</span>
             </div>
             <p>
-            <button class="btn btn-primary btn-add-to-cart">Add To Cart</button>
+            <button class="btn btn-primary btn-add-to-cart" id="addToCart">Add To Cart</button>
             </p>
         </div>
         `
@@ -128,5 +132,12 @@ strategy.addEventListener("click", function(){
     updateActiveClass(this);
 });
 
+document.addEventListener("click", function(event){
+    if(event.target && event.target.classList.contains("btn-add-to-cart")){
+        count.innerText++;
+        let newCount = parseInt(count.innerText);
 
-
+        localStorage.setItem("cart-count", newCount);
+        // alert("Item added to cart!");
+    }
+})

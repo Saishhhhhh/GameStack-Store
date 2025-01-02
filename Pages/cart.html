@@ -26,6 +26,9 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
+                                        <a class="nav-link" href="#">Profile</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a class="nav-link" href="#">About</a>
                                     </li>
                                     <li class="nav-item">
@@ -40,7 +43,10 @@
                                         </form>
                                     </li>
                                     <li class="nav-item custom-cart-icon">
-                                        <i class="fa-solid fa-cart-arrow-down" id="cart-icon"></i>
+                                        <a class="nav-link" href="Pages/cart.html">
+                                            <i class="fa-solid fa-cart-arrow-down" id="cart-icon"></i>
+                                            <span class="bag-item-count" id="cart-count">0</span>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -49,7 +55,7 @@
                 </div>
             </div>
         </div>
-    </header> 
+    </header>  
     <section class="cart">
         <div class="container-fluid">
             <h1 class="section-heading" id="checkout">Checkout</h1>
@@ -70,7 +76,7 @@
                                 <p class="cart-item-price">₹2,500 <span class="cart-item-original-price">₹5,000</span></p>
                                 <p class="cart-item-discount">50% off</p>
                             </div>
-                            <button class="cart-item-remove">X</button>
+                            <button class="cart-item-remove" id = "cross-button">X</button>
                         </div>
                         <div class="cart-item">
                             <div class="cart-item-image">
@@ -83,7 +89,7 @@
                                 <p class="cart-item-price">₹2,500 <span class="cart-item-original-price">₹5,000</span></p>
                                 <p class="cart-item-discount">50% off</p>
                             </div>
-                            <button class="cart-item-remove">X</button>
+                            <button class="cart-item-remove" id = "cross-button">X</button>
                         </div>
                         <div class="cart-item">
                             <div class="cart-item-image">
@@ -96,7 +102,7 @@
                                 <p class="cart-item-price">₹2,500 <span class="cart-item-original-price">₹5,000</span></p>
                                 <p class="cart-item-discount">50% off</p>
                             </div>
-                            <button class="cart-item-remove">X</button>
+                            <button class="cart-item-remove" id = "cross-button">X</button>
                         </div>
                     </div>
                 </div>
@@ -171,7 +177,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
-<script src="Data/items.js"></script>
-<script src="Script/script.js"></script>
+<script src="../Data/items.js"></script>
+<script src="../Script/cart.js"></script>
 
 </html>

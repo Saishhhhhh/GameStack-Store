@@ -69,18 +69,53 @@ header {
     transform: rotate(90deg);
 }
 
-#cart-icon{
-    font-size: 24px;
-    background-color: #131316;
+#cart-icon {
+    font-size: 28px;
+    background-color: transparent;
     color: #ff4b5c;
     transition: transform 0.3s ease, color 0.3s ease;
-    margin-left: 15px;
+    position: relative;
+    cursor: pointer;
 }
 
 #cart-icon:hover {
-    color: #00ffea;
-    transform: rotate(15deg);
+    color: #ff4b5c;
+    transform: scale(1.1);
 }
+
+.bag-item-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: linear-gradient(90deg, #ff4b5c, #ff3366);
+    color: #FEFEFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 8px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(255, 75, 92, 0.5);
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+
+.custom-cart-icon:hover .bag-item-count {
+    transform: scale(1.1);
+}
+
+.custom-cart-icon a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.custom-cart-icon a:hover {
+    color: #ff4b5c;
+}
+
 
 #logo{
     font-size: 36px;

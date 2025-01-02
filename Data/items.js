@@ -8,6 +8,8 @@ const videoGames = [
         current_price: 4499,
         discount_percentage: 25,
         genre: 'Action',
+        description: 'Embark on an epic journey to defeat evil and save the kingdom of Hyrule in this open-world adventure.',
+        featured: false,
     },
     {
         id: '002',
@@ -18,6 +20,7 @@ const videoGames = [
         current_price: 3999,
         discount_percentage: 20,
         genre: 'Action',
+        description: 'Join Kratos and Atreus as they face the end of the world and battle mighty gods in this action-packed saga.',
         featured: true,
     },
     {
@@ -29,6 +32,7 @@ const videoGames = [
         current_price: 2599,
         discount_percentage: 35,
         genre: 'Action',
+        description: 'Step into the shoes of a Viking warrior, raid enemies, and explore an expansive open world.',
         featured: true,
     },
     {
@@ -40,6 +44,8 @@ const videoGames = [
         current_price: 3499,
         discount_percentage: 30,
         genre: 'Sports & Racing',
+        description: 'Experience the world’s most popular football simulation with realistic graphics and immersive gameplay.',
+        featured: false,
     },
     {
         id: '005',
@@ -50,6 +56,7 @@ const videoGames = [
         current_price: 4999,
         discount_percentage: 29,
         genre: 'Action',
+        description: 'Engage in high-octane modern warfare with a gripping single-player campaign and intense multiplayer modes.',
         featured: true,
     },
     {
@@ -61,6 +68,8 @@ const videoGames = [
         current_price: 4499,
         discount_percentage: 25,
         genre: 'RPG',
+        description: 'Dive into a dark fantasy world filled with mythical creatures and challenging combat in this RPG.',
+        featured: false,
     },
     {
         id: '007',
@@ -71,6 +80,7 @@ const videoGames = [
         current_price: 1499,
         discount_percentage: 25,
         genre: 'Casual',
+        description: 'Build, explore, and survive in a blocky, procedurally generated world filled with endless possibilities.',
         featured: true,
     },
     {
@@ -82,6 +92,8 @@ const videoGames = [
         current_price: 1999,
         discount_percentage: 33,
         genre: 'Action',
+        description: 'Battle to be the last one standing in this dynamic multiplayer battle royale game with unique building mechanics.',
+        featured: false,
     },
     {
         id: '009',
@@ -92,6 +104,7 @@ const videoGames = [
         current_price: 1499,
         discount_percentage: 62,
         genre: 'Action',
+        description: 'Explore a sprawling open world full of crime, chaos, and adventure in this action-packed game.',
         featured: true,
     },
     {
@@ -103,6 +116,8 @@ const videoGames = [
         current_price: 3599,
         discount_percentage: 40,
         genre: 'Action',
+        description: 'Survive the horrors of a gothic village filled with terrifying enemies in this survival horror adventure.',
+        featured: false,
     },
     {
         id: '011',
@@ -113,6 +128,8 @@ const videoGames = [
         current_price: 5499,
         discount_percentage: 21,
         genre: 'RPG',
+        description: 'Enter a medieval fantasy world filled with magic, massive creatures, and epic battles in this RPG.',
+        featured: false,
     },
     {
         id: '012',
@@ -123,6 +140,8 @@ const videoGames = [
         current_price: 3299,
         discount_percentage: 34,
         genre: 'RPG',
+        description: 'Conquer tough enemies, intricate environments, and brutal bosses in this challenging action RPG.',
+        featured: false,
     },
     {
         id: '013',
@@ -133,6 +152,8 @@ const videoGames = [
         current_price: 1999,
         discount_percentage: 33,
         genre: 'Action',
+        description: 'Team up in fast-paced, hero-based combat in this dynamic first-person shooter from Blizzard.',
+        featured: false,
     },
     {
         id: '014',
@@ -143,6 +164,8 @@ const videoGames = [
         current_price: 2499,
         discount_percentage: 38,
         genre: 'RPG',
+        description: 'Explore the vast world of Skyrim, fight dragons, and undertake epic quests in this classic RPG.',
+        featured: false,
     },
     {
         id: '015',
@@ -153,6 +176,8 @@ const videoGames = [
         current_price: 3999,
         discount_percentage: 20,
         genre: 'Action',
+        description: 'Swing through New York City as the new Spider-Man in this action-packed superhero adventure.',
+        featured: false,
     },
     {
         id: '016',
@@ -163,6 +188,8 @@ const videoGames = [
         current_price: 2999,
         discount_percentage: 25,
         genre: 'Action',
+        description: 'Join Sonic in his new open-world adventure to rescue his friends and defeat mysterious new enemies.',
+        featured: false,
     },
     {
         id: '017',
@@ -173,6 +200,7 @@ const videoGames = [
         current_price: 3499,
         discount_percentage: 42,
         genre: 'RPG',
+        description: 'Explore the futuristic Night City, filled with advanced technology and dangerous gangs in this action-RPG.',
         featured: true,
     },
     {
@@ -184,6 +212,8 @@ const videoGames = [
         current_price: 2499,
         discount_percentage: 17,
         genre: 'Action',
+        description: 'Immerse yourself in the world of Half-Life with this VR-only title, where you fight alien forces in an expansive environment.',
+        featured: false,
     },
     {
         id: '019',
@@ -194,6 +224,8 @@ const videoGames = [
         current_price: 3499,
         discount_percentage: 30,
         genre: 'Adventure',
+        description: 'Join Mario in a globetrotting adventure to rescue Princess Peach and defeat Bowser in this 3D platformer.',
+        featured: false,
     },
     {
         id: '020',
@@ -204,6 +236,7 @@ const videoGames = [
         current_price: 2999,
         discount_percentage: 25,
         genre: 'Casual',
+        description: 'Enhance your gameplay experience with exclusive skins for weapons in this tactical first-person shooter.',
         featured: true,
     },
 ];
