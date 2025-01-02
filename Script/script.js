@@ -9,6 +9,9 @@ let sports = document.getElementById("sports");
 let strategy = document.getElementById("strategy");
 let count = document.getElementById("cart-count");
 
+function formatNumber(num) {
+    return new Intl.NumberFormat('en-IN').format(num);
+}
 
 let category = "featured";
 
@@ -47,8 +50,8 @@ function displayGameCards(category){
                 <span class="game-description" style="display:none">${game.description}%</span>
                 <div class="price-info">
                     <span class="discount-percentage">-${game.discount_percentage}%</span>
-                    <span class="original-price">₹${game.original_price}</span>
-                    <span class="current-price">₹${game.current_price}</span>
+                    <span class="original-price">₹${formatNumber(game.original_price)}</span>
+                    <span class="current-price">₹${formatNumber(game.current_price)}</span>
                 </div>
                 <p>
                 <button class="btn btn-primary btn-add-to-cart" id="addToCart">Add To Cart</button>
