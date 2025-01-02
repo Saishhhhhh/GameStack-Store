@@ -5,6 +5,10 @@
     background-color:#101014 ;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #101014;
     font-family: 'Orbitron', sans-serif;
@@ -13,11 +17,11 @@ body{
 }
 
 header {
-    background: linear-gradient(90deg, #131316, #1d1f24, #131316); /* Gradient background */
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7); /* Shadow for depth */
-    padding: 10px 0; /* Space around header */
+    background: linear-gradient(90deg, #131316, #1d1f24, #131316);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7); 
+    padding: 10px 0; 
     top: 0;
-    z-index: 1000; /* Ensure it stays on top */
+    z-index: 1000; 
 }
 
 .navbar{

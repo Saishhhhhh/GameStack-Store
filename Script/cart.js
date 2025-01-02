@@ -152,7 +152,25 @@ function SummaryUpdation(){
         <p>Total Amount</p>
         <p style="color: #FF3366;">₹${TotalPrice}</p>
     </div>
-    <button class="btn btn-primary cart-summary-button">PLACE ORDER</button>
+    <a href="Order.html" class="btn btn-primary cart-summary-button">PLACE ORDER</a> 
     `;
 }
 
+let orderBtn = document.querySelector(".cart-summary-button");
+
+    
+
+orderBtn.addEventListener("click", function(event){
+    event.preventDefault();
+
+    localStorage.clear()
+    count.innerText = 0;
+    cartContainer.innerHTML = "<h2>Your cart is empty!</h2>";
+
+    SummaryUpdation();
+
+    setTimeout(function() {
+        window.location.href = "Order.html";  
+    }, 500);
+    
+});

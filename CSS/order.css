@@ -1,0 +1,128 @@
+.success-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.success-message {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff4b5c;
+    text-shadow: 0 0 15px rgba(255, 75, 92, 0.8), 0 0 20px rgba(0, 255, 234, 0.6);
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 15px rgba(255, 75, 92, 0.8), 0 0 20px rgba(0, 255, 234, 0.6);
+    }
+    100% {
+        text-shadow: 0 0 30px rgba(255, 75, 92, 1), 0 0 40px rgba(0, 255, 234, 1);
+    }
+}
+
+.sub-message1 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #FEFEFF;
+    opacity: 0.8;
+}
+
+.sub-message2 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #FEFEFF;
+    opacity: 0.8;
+}
+
+.library-button {
+    margin-top: 30px;
+    font-size: 18px;
+    background: linear-gradient(90deg, #ff4b5c, #ff3366);
+    color: #FEFEFF;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(255, 75, 92, 0.7);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.library-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(255, 75, 92, 0.9);
+}
+
+.animation-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background: linear-gradient(90deg, #ff4b5c, #00ffea);
+    opacity: 0.8;
+    animation: fall 2s infinite ease-in-out;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-200px) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(200px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.confetti:nth-child(1) { left: 20%; animation-delay: 0s; }
+.confetti:nth-child(2) { left: 40%; animation-delay: 0.2s; }
+.confetti:nth-child(3) { left: 60%; animation-delay: 0.4s; }
+.confetti:nth-child(4) { left: 80%; animation-delay: 0.6s; }
+.confetti:nth-child(5) { left: 50%; animation-delay: 0.8s; }
+
+@media screen and (max-width: 643px) {
+    .order-success-container {
+        padding: 20px;
+    }
+
+    .order-message {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sub-message1 {
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 15px;
+        color: #FEFEFF;
+        opacity: 0.8;
+        text-align: center;
+    }
+
+    .order-animation {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cta-buttons a {
+        font-size: 14px;
+    }
+}
