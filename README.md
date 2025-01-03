@@ -76,20 +76,21 @@ Welcome to **GameStack**, an interactive and modern e-commerce website for purch
 **Desktop**
 
 ![Home-Page](ScreenShots/HomePage.png)
+
 ![Cards](ScreenShots/Cards.png)
+
 ![Footer](ScreenShots/Footer.png)
+
 ![About](ScreenShots/About.png)
+
 ![Cart](ScreenShots/Cart.png)
+
 ![Order-Successful](ScreenShots/OrderSuccessful.png)
 
 
 **Mobile**
 
 ![Mobile-HomePage](ScreenShots/Mobile_HomePage.png)
-![Mobile-Footer](ScreenShots/Mobile_Footer.png)
-![Mobile-Cards](ScreenShots/Mobile_Cards.png)
-![Mobile-Navbar](ScreenShots/Mobile_Navbar.png)
-![Mobile-About](ScreenShots/Mobile_About.png)
-![Mobile-Cart](ScreenShots/Mobile_Cart.png)
+
 ![Mobile-Cart2](ScreenShots/Mobile_Cart2.png)
-![Mobile-Order-Successful](ScreenShots/Mobile_OrderSuccessful.png)
+
