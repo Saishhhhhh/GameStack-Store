@@ -1,4 +1,4 @@
-4# GameStack - Gaming E-Commerce Website
+# GameStack - Gaming E-Commerce Website
 
 Welcome to **GameStack**, an interactive and modern e-commerce website for purchasing game CDs. GameStack offers an immersive user experience with stunning visuals, responsive design, and robust functionality.
 
