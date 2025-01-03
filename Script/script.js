@@ -135,6 +135,7 @@ searchBar.addEventListener("input", function () {
 
 document.addEventListener("click", function (event) {
     if (event.target && event.target.classList.contains("btn-add-to-cart")) {
+        alert("Item added to cart successfully!");
         count.innerText++;
         const newCount = parseInt(count.innerText);
         localStorage.setItem("cart-count", newCount);
